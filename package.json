@@ -1,0 +1,41 @@
+{
+  "name": "mat-ai-coach",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^5.2.13",
+    "@prisma/client": "^5.18.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@xata.io/client": "^0.0.0-next.v64f10283eb9a098c575590d3ea17600e350321c9",
+    "axios": "^1.7.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "jotai": "^2.9.1",
+    "lucide-react": "^0.424.0",
+    "next": "14.2.5",
+    "openai": "^4.55.0",
+    "prisma": "^5.18.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
